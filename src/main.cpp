@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "Solve.h"
+#include "algorithms/Solve.h"
 
 using namespace std;
 

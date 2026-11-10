@@ -312,10 +312,10 @@ void File::InputToFile_percent(vector<int>&K, int n, int a) {
 		}
 		if (f) P[i] = 0;
 	}
-	if (a == 1)	file.open("percBA.txt", fstream::in | fstream::out);
-	else if (a == 2) file.open("percBA_M.txt", fstream::in | fstream::out);
-	else if (a==3) file.open("percNewA.txt", fstream::in | fstream::out);
-	else if (a==4) file.open("percRoot.txt", fstream::in | fstream::out);
+	if (a == 1)	file.open("../../tests/percBA.txt", fstream::in | fstream::out);
+	else if (a == 2) file.open("../../tests/percBA_M.txt", fstream::in | fstream::out);
+	else if (a==3) file.open("../../tests/percNewA.txt", fstream::in | fstream::out);
+	else if (a==4) file.open("../../tests/percRoot.txt", fstream::in | fstream::out);
 
 	file << "K: ";
 	for (int i = 0; i < p; i++) {
@@ -335,10 +335,10 @@ void File::InputToFile_x_solver (vector<Trial>& trials, int n, int a) {
 	THillProblemFamily hpf;
 	TShekelProblemFamily shf;
 
-	if (a == 1)	file.open("x_solverBA.txt", fstream::in | fstream::out);
-	else if (a == 2) file.open("x_solverBA_M.txt", fstream::in | fstream::out);
-	else if (a == 3) file.open("x_solverNewA.txt", fstream::in | fstream::out);
-	else if (a == 4) file.open("x_solverRoot.txt", fstream::in | fstream::out);
+	if (a == 1)	file.open("../../tests/x_solverBA.txt", fstream::in | fstream::out);
+	else if (a == 2) file.open("../../tests/x_solverBA_M.txt", fstream::in | fstream::out);
+	else if (a == 3) file.open("../../tests/x_solverNewA.txt", fstream::in | fstream::out);
+	else if (a == 4) file.open("../../tests/x_solverRoot.txt", fstream::in | fstream::out);
 
 	//vector <int> b(401);
 	int g = 0;//-200

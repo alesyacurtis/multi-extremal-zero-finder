@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
-#include "HillProblem.hpp"
-#include "HillProblemFamily.hpp"
-#include "ShekelProblem.hpp"
-#include "ShekelProblemFamily.hpp"
+#include "../hill-and-shekel-functions/HillProblem.hpp"
+#include "../hill-and-shekel-functions/HillProblemFamily.hpp"
+#include "../hill-and-shekel-functions/ShekelProblem.hpp"
+#include "../hill-and-shekel-functions/ShekelProblemFamily.hpp"
 
 using namespace std;
 
